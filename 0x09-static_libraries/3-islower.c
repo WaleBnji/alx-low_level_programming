@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 #include <stdio.h>
@@ -9,10 +10,10 @@
 #include <string.h>
 
 
-int _putchar(char c)
+int _islower(int c)
 
 {
 
-	    return putchar(c);
+	    return (c >= 'a' && c <= 'z');
 
 }
